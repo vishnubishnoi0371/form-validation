@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import Commonbtn from "./Commonbtn";
 
 const Form_2 = () => {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ const Form_2 = () => {
     password: "",
     confirmPassword: "",
   });
-  const [showPassword, setShowPassword] = useState(false); 
+  const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
 
@@ -91,6 +92,20 @@ const Form_2 = () => {
 
   return (
     <>
+      <h1>Form , map , props , swiper</h1>
+      <div>
+        <h1 className="fw-bold text-danger">next -js links</h1>
+        <a
+          target="blank"
+          href="https://github.com/vishnubishnoi0371/practice.git"
+        >
+          https://github.com/vishnubishnoi0371/practice.git
+        </a>
+        <br />
+        <a target="blank" href="https://practice-swart-nine.vercel.app/">
+          https://practice-swart-nine.vercel.app/
+        </a>
+      </div>
       <form className="form_card" onSubmit={handleSubmit}>
         <h1 className="text-center mb-5">
           Form <span className="clr_change">Validation</span>
@@ -194,17 +209,14 @@ const Form_2 = () => {
             <p className="error-message">{formErrors.confirmPassword}</p>
           )}
         </div>
-        <button
-          type="submit"
-          className="submit_btn"
-        >
-          Submit
-        </button>
+        <Commonbtn type="submit" text="Submit" />
       </form>
       {showSuccessPopup && (
         <div className="success-popup">
           <p className="fw-bold tet-[35px]">Form submitted successfully!</p>
-          <button className="pop_btn" onClick={handlePopupClose}>Close</button>
+          <div>
+            <Commonbtn click={handlePopupClose} text="Close" />
+          </div>
         </div>
       )}
     </>

@@ -59,12 +59,31 @@ input[type="password"] {
   border-radius: 10px;
   z-index: 9;
 }
-
-.pop_btn {
+.swiper-button-next:after {
+  content: "next";
+  margin-bottom: 290px !important;
+}
+.swiper-button-prev:after {
+  content: "next";
+  margin-bottom: 290px !important;
+}
+.cmn_btn {
   background-color: #007bff;
   color: #fff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+.crd {
+  max-width: 300px;
+}
+.head {
+  font-size: 25px;
+}
+.show {
+  border: 2px solid black;
+  background: transparent;
+  border-radius: 30px;
+  font-size: 30px;
 }
