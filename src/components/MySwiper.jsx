@@ -8,7 +8,10 @@ import {
 } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import behind4 from "../Images/behind-4.webp";
+import behind5 from "../Images/behind-5.webp";
+import behind6 from "../Images/behind-6.webp";
+import behind7 from "../Images/behind-7.webp";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -32,45 +35,27 @@ const MySwiper = () => {
     >
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-1</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind4} />
       </SwiperSlide>
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-2</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind5} />
       </SwiperSlide>
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-3</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind6} />
       </SwiperSlide>
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-4</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind7} />
       </SwiperSlide>
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-5</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind4} />
       </SwiperSlide>
       <SwiperSlide className="bg-black mb-5 p-4 text-center max-w-[200px] text-white">
         <h1 className="text-[40px] mb-2">Swipe-6</h1>
-        <p className="text-center text-white">
-          Experienced in investing in traditional equity markets and that
-          provides walletservices, swaps and DeFi
-        </p>
+        <img className="w-100" src={behind6} />
       </SwiperSlide>
     </Swiper>
   );

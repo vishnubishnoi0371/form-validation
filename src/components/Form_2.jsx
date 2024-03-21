@@ -92,7 +92,6 @@ const Form_2 = () => {
 
   return (
     <>
-      <h1>Form , map , props , swiper</h1>
       <div>
         <h1 className="fw-bold text-danger">next -js links</h1>
         <a
@@ -106,6 +105,8 @@ const Form_2 = () => {
           https://practice-swart-nine.vercel.app/
         </a>
       </div>
+      <h1 className="text-center">Form , map , props , swiper</h1>
+
       <form className="form_card" onSubmit={handleSubmit}>
         <h1 className="text-center mb-5">
           Form <span className="clr_change">Validation</span>
