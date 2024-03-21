@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.form_card {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.clr_change {
+  color: #007bff !important ;
+}
+.eye_btn {
+  border: none;
+  border: unset;
+  background: transparent;
+  position: absolute;
+  right: 3%;
+  top: 22%;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="mail"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: transparent;
+}
+.error {
+  border-color: #ff0000;
+}
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+}
+.submit_btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pop_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
