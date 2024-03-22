@@ -8,4 +8,4 @@ const Commonbtn = (props) => {
     </div>
   );
 };
-export default Commonbtn;
+export default Commonbtn; 
