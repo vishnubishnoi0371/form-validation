@@ -31,14 +31,14 @@ const Mainsection = () => {
       <div className="d-flex flex-column align-items-center justify-content-center pb-5">
         <a
           href="/About"
-          className="show text-black text-decoration-none p-3 mt-5"
+          className="show text-black text-decoration-none p-3 mb-3 mt-5"
         >
           show about -
         </a>
 
-        <div className="d-flex gap-4">
+        <div className="d-flex flex-column flex-md-row gap-4">
           {data.map((obj, i) => (
-            <div key={i} className=" p-3 crd rounded-lg bg-black  mt-5">
+            <div key={i} className=" p-3 crd rounded-lg bg-black  mt-md-5">
               <img className="w-100" src={obj.img} alt="img" />
               <div className=" d-flex align-items-center justify-content-center gap-3">
                 <p className=" text-white head">{obj.id}</p>

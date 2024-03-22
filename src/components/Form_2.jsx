@@ -92,8 +92,7 @@ const Form_2 = () => {
 
   return (
     <>
-     
-      <h1 className="text-center">Form , map , props , swiper</h1>
+      <h1 className="text-center">Form , map , props , swiper ---:</h1>
 
       <form className="form_card" onSubmit={handleSubmit}>
         <h1 className="text-center mb-5">
