@@ -88,3 +88,7 @@ input[type="password"] {
   border-radius: 30px;
   font-size: 30px;
 }
+.slide-card {
+  margin: 10px !important;
+  gap: 40px !important;
+}

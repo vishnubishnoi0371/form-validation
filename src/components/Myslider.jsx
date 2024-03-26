@@ -8,7 +8,7 @@ const Myslider = () => {
     dots: false,
     infinite: true,
     speed: 3000,
-    slidesToShow: 4,
+    slidesToShow: 3.5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
@@ -49,45 +49,55 @@ const Myslider = () => {
     <div className="pt-5">
       <h1 className="text-center">React Slider</h1>
       <Slider {...settings} className="gap-2 p-4 ">
-        <div className="p-4 bg-black">
-          <p className="text-white fs-6 fw-bold text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure
-            deserunt quos incidunt libero quae, vel animi hic dolores porro
-            accusantium fugiat eos unde optio amet dolor mollitia eaque
-            architecto?
-          </p>
+        <div className="slide-card">
+          <div className="p-4 bg-black mx-3">
+            <p className="text-white fs-6 fw-bold text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iure deserunt quos incidunt libero quae, vel animi hic dolores
+              porro accusantium fugiat eos unde optio amet dolor mollitia eaque
+              architecto?
+            </p>
+          </div>
         </div>
-        <div className="p-4 bg-black">
-          <p className="text-white fs-6 fw-bold text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure
-            deserunt quos incidunt libero quae, vel animi hic dolores porro
-            accusantium fugiat eos unde optio amet dolor mollitia eaque
-            architecto?
-          </p>
+        <div className="slide-card">
+          <div className="p-4 bg-black mx-3">
+            <p className="text-white fs-6 fw-bold text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iure deserunt quos incidunt libero quae, vel animi hic dolores
+              porro accusantium fugiat eos unde optio amet dolor mollitia eaque
+              architecto?
+            </p>
+          </div>
         </div>
-        <div className="p-4 bg-black">
-          <p className="text-white fs-6 fw-bold text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure
-            deserunt quos incidunt libero quae, vel animi hic dolores porro
-            accusantium fugiat eos unde optio amet dolor mollitia eaque
-            architecto?
-          </p>
+        <div className="slide-card">
+          <div className="p-4 bg-black mx-3">
+            <p className="text-white fs-6 fw-bold text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iure deserunt quos incidunt libero quae, vel animi hic dolores
+              porro accusantium fugiat eos unde optio amet dolor mollitia eaque
+              architecto?
+            </p>
+          </div>
         </div>
-        <div className="p-4 bg-black">
-          <p className="text-white fs-6 fw-bold text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure
-            deserunt quos incidunt libero quae, vel animi hic dolores porro
-            accusantium fugiat eos unde optio amet dolor mollitia eaque
-            architecto?
-          </p>
+        <div className="slide-card">
+          <div className="p-4 bg-black mx-3">
+            <p className="text-white fs-6 fw-bold text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iure deserunt quos incidunt libero quae, vel animi hic dolores
+              porro accusantium fugiat eos unde optio amet dolor mollitia eaque
+              architecto?
+            </p>
+          </div>
         </div>
-        <div className="p-4 bg-black">
-          <p className="text-white fs-6 fw-bold text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure
-            deserunt quos incidunt libero quae, vel animi hic dolores porro
-            accusantium fugiat eos unde optio amet dolor mollitia eaque
-            architecto?
-          </p>
+        <div className="slide-card">
+          <div className="p-4 bg-black mx-3">
+            <p className="text-white fs-6 fw-bold text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              iure deserunt quos incidunt libero quae, vel animi hic dolores
+              porro accusantium fugiat eos unde optio amet dolor mollitia eaque
+              architecto?
+            </p>
+          </div>
         </div>
       </Slider>
     </div>
