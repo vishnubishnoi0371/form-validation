@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Form_2 />
-      <Mainsection />
+      {/* <Mainsection /> */}
       <MySwiper />
       <Myslider />
     </>
