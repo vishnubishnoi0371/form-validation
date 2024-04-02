@@ -118,7 +118,8 @@ const Form_2 = () => {
             Ph. Number:
           </label>
           <input
-            type="text"
+           type="number"
+           pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
             id="number"
             name="number"
             value={formData.number}
